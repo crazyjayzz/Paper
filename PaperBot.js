@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 //const config =  require('./config.json');
 const PaperBot = new Discord.Client({disableEveryone: true});
 const Files = require(require('path').join(__dirname, 'js', 'Main.js')).Files;
-
+const myTimeZone = 7;
 
 PaperBot.login('NTA2MDc4MzczMjQ0Njk4NjI0.DrpOPA.G5vuXEamLj6IBqS4v_crcm1uOCg');
 
@@ -16,12 +16,11 @@ PaperBot.on("ready", async () =>
 //PaperBot.login(config.token);
 
 ///////////////////////////////////เวลาบอส/////////////////////////////////////
-
-
 var Fullday = new Date();
-var day = Fullday.getDay();
-var time1 = Fullday.getHours();
-var min1 = Fullday.getMinutes();
+var Timezone = Fullday.setTime( Fullday.getTime() + myTimeZone * 60 * 60 * 1000 );
+var day = Timezone.getDay();
+var time1 = Timezone.getHours();
+var min1 = Timezone.getMinutes();
 var boss1 ="คจาคาร์";
 var boss2 ="คารานด้า";
 var boss3 ="นูเวอร์";
@@ -91,7 +90,7 @@ var Timeboss6 = "23:00น.";
     		var T26 =(`${Timeboss6} ${boss3}  ${boss4}`);
     		var T27 =(`วัน${day3}  ${Timeboss1} ${boss1}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname} ${Fullday}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname} ${Timezone}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T21}\n${T22}\n${T23}\n${T24}\n${T25}\n${T26}\n${T27}`);
        		msg.reply(embed);
@@ -108,7 +107,7 @@ var Timeboss6 = "23:00น.";
     		var T35 =(`${Timeboss6} ${boss5}`);
     		var T36 =(`วัน${day4}  ${Timeboss1} ${boss4}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname} ${Timezone}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T31}\n${T32}\n${T33}\n${T34}\n${T35}\n${T36}`);
        		 msg.reply(embed);
