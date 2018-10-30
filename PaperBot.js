@@ -167,7 +167,7 @@ var Timeboss6 = "23:00น.";
 
 PaperBot.on('message', message => 
 {
-    if (message.content === '!ชุดเกราะ') 
+    if (message.content === '!เกราะ') 
 	{
         const attachment = new Attachment('https://www.picz.in.th/images/2018/10/29/3SCxSn.png');
         message.channel.send(attachment);
