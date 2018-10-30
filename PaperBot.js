@@ -91,7 +91,7 @@ var Timeboss6 = "23:00น.";
     		var T26 =(`${Timeboss6} ${boss3}  ${boss4}`);
     		var T27 =(`วัน${day3}  ${Timeboss1} ${boss1}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname} ${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T21}\n${T22}\n${T23}\n${T24}\n${T25}\n${T26}\n${T27}`);
        		msg.reply(embed);
