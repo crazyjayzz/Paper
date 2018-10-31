@@ -105,7 +105,7 @@ var Timeboss6 = "23:00น.";
     		var T35 =(`${Timeboss6} ${boss5}`);
     		var T36 =(`วัน${day4}  ${Timeboss1} ${boss4}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname}\n ${Timezone}\n ${Timezone2} \n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T31}\n${T32}\n${T33}\n${T34}\n${T35}\n${T36}`);
        		 msg.reply(embed);
@@ -123,7 +123,7 @@ var Timeboss6 = "23:00น.";
     		var T46 =(`${Timeboss6} ${boss1}  ${boss3}`);
     		var T47 =(`วัน${day5}  ${Timeboss1} ${boss1}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname} \n ${Timezone}\n ${Timezone2} \n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T41}\n${T42}\n${T43}\n${T44}\n${T45}\n${T46}\n${T47}`);
        		msg.reply(embed);
