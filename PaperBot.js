@@ -53,7 +53,7 @@ var Timeboss6 = "23:00น.";
     		var T06 = (`${Timeboss6} ${boss3}  ${boss4} `);
     		var T07 = (`วัน${day1}  ${Timeboss1} ${boss1}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname}\n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T01}\n${T02}\n${T03}\n${T04}\n${T05}\n${T06}\n${T07}`);
        		msg.reply(embed);
@@ -70,7 +70,7 @@ var Timeboss6 = "23:00น.";
     		var T15 = (`${Timeboss6} ${boss5}`);
     		var T16 = (`วัน${day2}  ${Timeboss1} ${boss3}`);
 			const embed = new RichEmbed()
-			.setTitle(`เวลาบอสโลก วัน${dayname}`)
+			.setTitle(`เวลาบอสโลก วัน${dayname}\n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T11}\n${T12}\n${T13}\n${T14}\n${T15}\n${T16}`);
        		msg.reply(embed);
@@ -88,7 +88,7 @@ var Timeboss6 = "23:00น.";
     		var T26 =(`${Timeboss6} ${boss3}  ${boss4}`);
     		var T27 =(`วัน${day3}  ${Timeboss1} ${boss1}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname}\n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T21}\n${T22}\n${T23}\n${T24}\n${T25}\n${T26}\n${T27}`);
        		msg.reply(embed);
@@ -105,7 +105,7 @@ var Timeboss6 = "23:00น.";
     		var T35 =(`${Timeboss6} ${boss5}`);
     		var T36 =(`วัน${day4}  ${Timeboss1} ${boss4}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname}\n ${Timezone}\n ${Timezone2} \n${Fullday}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname}\n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T31}\n${T32}\n${T33}\n${T34}\n${T35}\n${T36}`);
        		 msg.reply(embed);
@@ -123,7 +123,7 @@ var Timeboss6 = "23:00น.";
     		var T46 =(`${Timeboss6} ${boss1}  ${boss3}`);
     		var T47 =(`วัน${day5}  ${Timeboss1} ${boss1}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname} \n ${Timezone}\n ${Timezone2} \n${Fullday}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname} \n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T41}\n${T42}\n${T43}\n${T44}\n${T45}\n${T46}\n${T47}`);
        		msg.reply(embed);
@@ -139,7 +139,7 @@ var Timeboss6 = "23:00น.";
     		var T55 = (`${Timeboss6} ${boss5}`);
     		var T56 = (`วัน${day6}  ${Timeboss1} ${boss2}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก ${dayname}`)
+      		.setTitle(`เวลาบอสโลก ${dayname} \n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T51}\n${T52}\n${T53}\n${T54}\n${T55}\n${T56}`);
        		msg.reply(embed);
@@ -155,7 +155,7 @@ var Timeboss6 = "23:00น.";
     		var T65 =(`${Timeboss5} มูลัคคา กวินท์`);
     		var T66 =(`วัน${day0}  ${Timeboss1} ${boss2}`);
 			const embed = new RichEmbed()
-      		.setTitle(`เวลาบอสโลก วัน${dayname}`)
+      		.setTitle(`เวลาบอสโลก วัน${dayname}\n${Fullday}`)
       		.setColor(0xFF0000)
       		.setDescription(`${T61}\n${T62}\n${T63}\n${T64}\n${T65}\n${T66}`);
        		msg.reply(embed);
